@@ -2,7 +2,7 @@
 
 Do partial string matching, and replace a biosample name with the biosample  id
 
-# Input
+## Input
 
 - `colnames.txt`
 - `samples.tsv`
@@ -23,7 +23,7 @@ biosample_id original_sample_name
 ...
 ```
 
-# Output
+## Output
 
 We want the output `colnames_tx.txt` to look like
 

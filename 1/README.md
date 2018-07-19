@@ -1,12 +1,19 @@
+# Problem
+
+Do partial string matching, and replace a biosample name with the biosample  id
+
 # Input
 
-Given a sample files whose column names are in `colnames.txt`
+- `colnames.txt`
+- `samples.tsv`
+
+Given a file `colnames.txt`
 
 ```sh
 GENE_ID	PREFIX1/Jack2_0	PREFIX2/Mary1_1	PREFIX1/Jack1_0 ...
 ```
 
-and a sample manifest file where the data looks like:
+and a sample manifest file `samples.tsv` where the data looks like:
 
 ```sh
 biosample_id original_sample_name
@@ -18,7 +25,7 @@ biosample_id original_sample_name
 
 # Output
 
-We want the output to look like
+We want the output `colnames_tx.txt` to look like
 
 ```sh
 GENE_ID	2	3	1 ...

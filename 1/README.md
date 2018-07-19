@@ -25,7 +25,7 @@ biosample_id original_sample_name
 
 ## Output
 
-We want the output `colnames_tx.txt` to look like
+We want the output `colnames_processed.txt` to look like
 
 ```sh
 GENE_ID	2	3	1 ...

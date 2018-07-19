@@ -3,16 +3,16 @@
 Given a sample files whose column names are in `colnames.txt`
 
 ```sh
-GENE_ID	PREFIX1/ST1_1038_1_BM_0	PREFIX2/ST1_1033_1_BM_1	PREFIX1/ST1_1053_1_BM_0 ...
+GENE_ID	PREFIX1/Jack2_0	PREFIX2/Mary1_1	PREFIX1/Jack1_0 ...
 ```
 
 and a sample manifest file where the data looks like:
 
 ```sh
 biosample_id original_sample_name
-1 ST1_1053_1_BM
-2 ST1_1038_1_BM
-3 ST1_1033_1_BM
+1 Jack1
+2 Jack2
+3 Mary1
 ...
 ```
 
